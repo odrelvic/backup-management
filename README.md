@@ -15,9 +15,9 @@ The files path isn't universal for every PC. As a consequence of this, you have 
   Open the file with a text editor of your choice (even VSCode!), then search for the variable "BACKUP_PATH" (line 10), and change it to your desired location. Same process in (line 26), after "rm -vi", to the path of your choice.
   
  2. "backupScript.sh"
-  Open the file with a text editor of your choice (even VSCode!), then change the variables current folder to the path of your choice.
-  Variables:
-(line 4) backup_path
-(line 7) final_storage
-(line 14) log_file
+  Open the file with a text editor of your choice (even VSCode!), then change the variables current folder to the path of your choice.  
+  Variables:  
+(line 4) backup_path  
+(line 7) final_storage  
+(line 14) log_file  
   

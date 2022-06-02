@@ -21,3 +21,10 @@ The files path isn't universal for every PC. As a consequence of this, you have 
 (line 7) final_storage  
 (line 14) log_file  
   
+## Using CRON to schedule the script execution
+
+First, it's common to schedule specific periods of time to execute a script, and in this case, it's necessary to run "backupScript.sh" to prevent exceeding the size of the drive (since the drive limit size isn't infinite). In this time, we are using CRON.
+
+1. DriverBackup.sh
+Access the site (https://crontab.guru/), and adjust the time for your choice, before opening the cron file for scheduling the execution.
+
